@@ -1,1 +1,125 @@
-Hello world
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 1;
+            padding: 1;
+            background-color: #6892ac;
+        }
+
+        header {
+            background-color: #5983a5;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgb(86, 96, 114);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .info div {
+            flex: 1;
+            padding: 10px;
+            margin: 0 5px;
+            background-color: #9fa1a1;
+            border-radius: 6px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .info {
+                flex-direction: column;
+            }
+
+            .profile-pic {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Currículum</h1>
+    </header>
+
+    <section>
+        <div style="text-align: center;">
+            <img class="profile-pic" src="https://w7.pngwing.com/pngs/48/259/png-transparent-profile-man-male-photo-face-portrait-illustration-vector-people-blue-thumbnail.png" alt="Foto de perfil">
+        </div>
+    </section>
+
+    <section>
+        <h2>Datos Personales</h2>
+        <div class="info">
+            <div>
+                <h3>Nombre</h3>
+                <p>Diego Garcia</p>
+            </div>
+            <div>
+                <h3>Correo Electrónico</h3>
+                <p>garvedo2002@gmail.com</p>
+            </div>
+            <div>
+                <h3>Teléfono</h3>
+                <p>5943-2807</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+        <div>
+            <h3>Asistente de programador de terminales</h3>
+            <p>Asociado de despliegue en Telus International en la cuenta de PaySafe Card, cuenta bilingüe español-ingles.</p>
+            <p>Empresa PaySafe Card - Guatemala, Guatemala | 28/11/2021 - presente</p>
+            <ul>
+                <li>Utilicé fuertes habilidades de toma de decisiones y resolución de problemas.
+  Logre crear una linea directa de comunicación con los agentes para poder proveer efectivamente los servicios de la empresa.</li>
+                <li>European Academy, Guatemala City Academic English</li>
+            </ul>
+        </div>
+
+        <div>
+            
+    </section>
+
+    <section>
+        <h2>Perfil</h2>
+        <div>
+            <h3>Grado Universitario (en proceso)</h3>
+            <p>Galileo - Gueatemal, Guatemala | 01/2024 - presente</p>
+            <p>Tecnico en desarrolo de software</p>
+        </div>
+    </section>
+</body>
+</html>
